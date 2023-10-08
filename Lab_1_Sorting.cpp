@@ -1,5 +1,3 @@
-﻿// Lab_1_Sorting.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
-
 #include <iostream>
 #include <algorithm>
 using namespace std;
@@ -16,7 +14,6 @@ int* Pyramid(int* Mass, int l);
 void PiramFill(int* Mass, int l, int i, double *sp);
 void QuickS(int* Mass, int l, int* sp);
 
-// ======================
 int main()
 {
     setlocale(LC_ALL, "");
@@ -149,8 +146,6 @@ int main()
     delete[] MRand;
     return 0;
 }
-// ======================
-
 
 int* FillingM(int* My, int l)
 {
